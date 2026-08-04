@@ -88,7 +88,15 @@ function Result({ item, image, t }) {
 
 function App() {
   const [lang, setLang] = useState(localStorage.getItem("m-lang") || "en");
-  const [dark, setDark] = useState(localStorage.getItem("m-theme") === "dark");
+  const [dark, setDark] = useState(() => {
+  const saved = localStorage.getItem("theme");
+
+    if (saved !== null) {
+      return saved === "dark";
+    }
+
+    return true;
+  });
   const [menu, setMenu] = useState(false);
   const [modal, setModal] = useState(false);
   const [faq, setFaq] = useState(0);
