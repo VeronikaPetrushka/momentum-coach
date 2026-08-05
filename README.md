@@ -39,3 +39,20 @@ The demo uses remote Unsplash images. Replace them with your own licensed photos
 
 The before/after cards use original fictional SVG client visuals created for this demo. They do not represent real people or real medical/fitness claims.
 # momentum-coach
+
+
+## Performance Lab Redesign
+
+- Complete visual redesign with a sports-tech/performance-lab identity.
+- Dashboard-style interactive hero with mouse-follow spotlight.
+- Animated scan line, live status pulse and floating performance cards.
+- Program selector console instead of repeated pricing-card sections.
+- System phases displayed as an orbit-based coaching process.
+- Results presented as an interactive transformation lab.
+- Roadmap redesigned as a measured progress timeline.
+- Digital guides redesigned as colorful product covers.
+- Coach section rebuilt as a profile dossier.
+- Scroll-triggered reveal animations across the entire site.
+- Responsive fullscreen mobile navigation.
+- Existing EN / PL / UA translations and transformation sliders retained.
+- Dark theme remains the default for first-time visitors.
